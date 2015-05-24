@@ -64,6 +64,7 @@ footer a {
 .nav > li > a:focus{
   border-bottom: 2px solid transparent;
   background-color: transparent;
+  outline: 0;
   border-bottom-color: rgba(255,255,255,.25);
 }
 
