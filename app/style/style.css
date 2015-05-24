@@ -34,6 +34,13 @@ footer a {
   margin-top: 15px;
 }
 
+.nav-btn {
+  color: white;
+}
+.nav-btn:hover{
+  color: white;
+}
+
 .center {
   text-align: center;
 }
