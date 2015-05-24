@@ -60,7 +60,8 @@ footer a {
   display: inline-block;
 }
 
-.nav > li > a:hover {
+.nav > li > a:hover,
+.nav > li > a:focus{
   border-bottom: 2px solid transparent;
   background-color: transparent;
   border-bottom-color: rgba(255,255,255,.25);
