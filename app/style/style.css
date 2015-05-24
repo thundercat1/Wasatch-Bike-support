@@ -41,6 +41,24 @@ footer a {
   text-decoration: none;
 }
 
+.logo{
+  height: 150px;
+  
+  text-align: center;
+  background-image: url(/resources/wbs-weblogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*
+.logo:after{
+  content:url('/resources/wbs-logo.png');
+  z-index: 1000;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+}
+*/
+
 .nav {
   margin-top: 15px;
 }
@@ -78,6 +96,7 @@ footer a {
 }
 
 .jumbotron {
+  padding-top: 0px;
   text-align: center;
   background: none;
 }
