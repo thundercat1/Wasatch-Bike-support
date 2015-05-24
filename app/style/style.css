@@ -87,3 +87,18 @@ footer a {
   font-size: 20px;
   margin-top: 10px;
 }
+
+
+.services-menu-wrapper {
+  -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+
+@media (max-width: 600px){
+.services-menu-wrapper {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+}
